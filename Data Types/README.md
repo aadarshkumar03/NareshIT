@@ -1,6 +1,7 @@
 **Data Types in Python:**<br>
 -The purpose of data types is that "To allocate memory space for storing the INPUT values".
 -In python programming, we have 14 Data Types, They are:
+
 **I) Fundamental Data Types:**
 1. int
 2. float
