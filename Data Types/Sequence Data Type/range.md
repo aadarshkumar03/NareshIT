@@ -10,4 +10,4 @@ _syntax-2_ varname=range(Begin,End)<br>
 This syntax create an object of range by starting with Begin to End-1.<br>
 _Note:"With Syntax-1 and Syntax-2 allows us to create the objects of range in forward direction  with default equal interval value 1."<br>
 _Syntax-3:_ varname=range(Begin,End,Step)<br>
-This syntax create an object of range by starting with Begin to End-1 by maintaining equal interval value "Stpe".
+This syntax create an object of range by starting with Begin to End-1 by maintaining equal interval value "Step".
