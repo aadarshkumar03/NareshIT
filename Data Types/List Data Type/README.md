@@ -3,3 +3,6 @@
 -We have two types of List Data Types. They are<br>
 1) list (mutable)<br>
 2) tuple (immutable)
+
+**Note:**
+- **_The Functionality of tuple is exactly similar to list but an object of list belongs to Mutable and an object of tuple is Immutable_**.
