@@ -30,7 +30,7 @@ This function obtains all the common elements from frozensetobj1 and frozensetob
 
 **7. difference(): frozensetobj3=frozensetobj1.difference(frozensetobj2)**<br>
 - This function removes common elements from both frozensetobj1 and frozensetobj2 and takes remaining elements from  frozensetobj1 and place them in frozensetobj3.
-- **frozensetobj3=frozensetobj2.difference(frozensetobj1)
+- **frozensetobj3=frozensetobj2.difference(frozensetobj1)**
 - This function removes common elements from both frozensetobj1 and frozensetobj2 and takes remaining elements from frozensetobj2 and place them in frozensetobj3.
 - 
 **8. symmetric_difference(): frozensetobj3=frozensetobj1.symmetric_difference(frozensetobj2)**<br>
