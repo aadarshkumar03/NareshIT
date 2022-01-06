@@ -1,0 +1,1 @@
+- Featurs of Language is nothing but services (OR) facilities provided by developers which are used by programmers for developing **"Real Time Applications"**.
