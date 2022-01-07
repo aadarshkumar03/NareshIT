@@ -1,5 +1,5 @@
 #Q2.Write a python program, which will calculate simple interest and total amount of pay. #CW
-#simpleint1.py
+#simpleint.py
 
 p=float(input("Enter Principle Amount:"))
 t=float(input("Enter Time:"))
