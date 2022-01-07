@@ -1,5 +1,5 @@
 #Q3.Write a python program, which will accept temperature in celcius and convert it into fahrenheit. #HW
-#tempconverter1.py
+#tempconverter.py
 
 c=float(input("Enter Temperature in Celcius:"))
 
