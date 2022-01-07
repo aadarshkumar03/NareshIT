@@ -1,4 +1,4 @@
-'''Q6.Write a python program which will accept numerical integer value and check whether the number is palindrome or not. #CW
+'''Q11.Write a python program which will accept numerical integer value and check whether the number is palindrome or not. #CW
 palinNum.py'''
 
 n=int(input("Enter a Number : "))
