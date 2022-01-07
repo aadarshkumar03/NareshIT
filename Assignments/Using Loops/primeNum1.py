@@ -1,17 +1,15 @@
-'''Q20.Write a python program which will accept numerical integer value and decide whether it is prime or not. #CW
+'''Q20.Write a python program which will accept numerical integer value and decide whether it is prime or not. #HW
 primeNum1.py'''
 
 n=int(input("Enter a Number : "))
-for i in range(1,n+1):
-    if (i<=1):
-        print("{} is Invalid Input".format(i))
-    else:
-        res=True
-        for j in range(2,i):
-            if (i%j==0):
-                res=False
-                break
-        if res:
-            print("{} is Prime".format(i))
+if (n<=0):
+    print("Invalid Number")
+elif (n==1):
+    print("{} is neither Prime not Composite".format(n))
+elif n>1:
+    for i in ragne(2,n//2):
+        if (n%i)==0:
+            print(n, "is not a PRIME")
+            break
         else:
-            print("{} is Not prime".format(i))
+            print(n,"is a PRIME")
