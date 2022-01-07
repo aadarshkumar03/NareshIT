@@ -1,4 +1,4 @@
-'''Q4.Write a python program which will calculate sum of first n natural numbers and squares and cubes of first n natural numbers. #CW
+'''Q9.Write a python program which will calculate sum of first n natural numbers and squares and cubes of first n natural numbers. #CW
 naturalAllSum.py'''
 
 n=int(input("Enter a Number : "))
