@@ -1,4 +1,4 @@
-'''Q2.Write a python program which will find sum of squares of first n natural numbers. #CW
+'''Q7.Write a python program which will find sum of squares of first n natural numbers. #CW
 naturalSqSum.py'''
 
 n=int(input("Enter a Number : "))
