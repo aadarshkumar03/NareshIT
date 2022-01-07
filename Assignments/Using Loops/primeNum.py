@@ -1,4 +1,4 @@
-'''Q5.Write a python program which will decide whether the given number is prime or not. #CW & HW
+'''Q16.Write a python program which will decide whether the given number is prime or not. #CW & HW
 primeNum.py'''
 
 n=int(input("Enter a number:"))
