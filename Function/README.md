@@ -19,4 +19,4 @@
 - Special Functions
      1. filter() with Normal and Anonymous Function
      2. map() with Normal and Anonymous Function
-     3. reduce() with Normal and Anonymous 
+     3. reduce() with Normal and Anonymous Function.
