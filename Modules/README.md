@@ -4,6 +4,3 @@
 
 ***Def. of Module:***
 - A module is a collection if variables (Global Variables), Functions and Classes.
-
-
-AAAA
