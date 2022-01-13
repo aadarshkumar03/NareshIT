@@ -18,5 +18,3 @@
 - Syntax for  Handling The exceptions
 - Exception handling Hierarchy Chart
 - Development Programmer-defined exceptions.
-
-AAA
