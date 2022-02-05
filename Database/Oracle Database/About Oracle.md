@@ -5,7 +5,7 @@
     (or)
 from cx_Oracle import *</pre>
 
-### 2.Python program must obtain connection from Oracle Database:
+### 2. Python program must obtain connection from Oracle Database:
 - Before doing any any database operations through python program, Python program must get connection from Oracle Database by using _connect()_, which is present in cx_Oracle.
 - *Syntax:*
 <pre>varname = cx_Oracle.connect("username/password@DNS/serviceID)
@@ -20,7 +20,7 @@ DNS : localhost (or) 127.0.0.1</pre>
 <pre>SQL>select * from global_name;</pre>
 - "Varname" represents object of _<class, cx_Oracle.Connection>_.
 - ***Example:***
-<pre>To get the connectiion of Oracle Database from Python program.
+<pre>#To get the connectiion of Oracle Database from Python program.
 import cx_Oracle
 con=cx_Oracle.connect("User/password@localhost/orcl")
 cur=con.cursor()
@@ -31,7 +31,7 @@ con=cx_Oracle.connect("User/password@127.0.0.1/orcl")
 cur=con.cursor()
 print("Python got connection from Oracle Database")</pre>
 
-### 3.Create an object of cursor:
+### 3. Create an object of cursor:
 - Here cursor is an object whose purpose is that "To carry the query from python program to Database software and cursor object brings the result from database software to python program".
 - To create an object of cursor, we use a pre-defined function called _cursor()_ which is present in connection oject.
 - *Syntas:* curobj = conobj.cursor()
@@ -40,13 +40,13 @@ print("Python got connection from Oracle Database")</pre>
 import cx_Oracle
 conobj = cx_Oracle.connect("User/password@localhost/orcl")
 curobj = conobj.cursor()
-print("Type of curobj=",type(curobj))    # Type of curobj = <class,cx_Oracle.cursor> </pre>
+print("Type of curobj=",type(curobj))    # Type of curobj =(class,cx_Oracle.cursor) </pre>
 
-### 4.Design the query, place it into the object of cursor and execute the qyery:
+### 4. Design the query, place it into the object of cursor and execute the qyery:
 - Query is a request / question to the database sofware.
 - To execute the query, we use a pre-defined function called _execute()_, which is present in cursor object.
 - *Syntax:* varname = curobj.execute("query")
 
-### 5.process the result which is available in cursor object:
+### 5. Process the result which is available in cursor object:
 - This process makes us to understand retrieve data from cursor object and display it on the console.
 - *Examaple:* Handling exception messages dealing with results.
